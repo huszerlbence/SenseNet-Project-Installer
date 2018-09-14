@@ -18,7 +18,7 @@ Steps contain the following scripts for now:
 
 ## Prerequisites
 
-Prerequisits are mostly come from the scripts that are made for managing Sense/Net:
+Prerequisites are mostly come from the scripts that are made for managing Sense/Net:
 
 1. PowerShell: first and foremost the whole logic is based on powershell scripts, so naturally it needs to be executeable
 - Enable the powershell script running permission: PS C:\PowerShell-PowerUp> Set-ExecutionPolicy unrestricted
