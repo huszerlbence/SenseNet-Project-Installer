@@ -16,7 +16,7 @@ Steps contain the following scripts for now:
 - Import/Export content and index populate Sense/Net site
 - and some other custom scripts
 
-## Prerequisits
+## Prerequisites
 
 Prerequisits are mostly come from the scripts that are made for managing Sense/Net:
 
