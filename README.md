@@ -33,7 +33,12 @@ a.       SQL Server Configuration Manager: we usually use a default server alias
 - Download and install the 7-Zip application from http://www.7-zip.org/.
 
 ## How to execute a "plot" 
-Mint korábban említettem, a megoldás előre meghatározott feladatok sorrendben történő végrehajtására van kihegyezve. Ezt a forgatókönyvet "plot"-nak nevezzük, egy végrehajtandó feladatot "step"-nek. Alapvetően - pl fejlesztőkörnyezet létrehozásakor vagy frissítésekor - a "plot" működés kap nagyobb szerepet. Ez az amivel a gyakran ismételt több lépésből álló feladat automatizálásával időt spórolhatunk. Ezek a forgatókönyvek a settings file-ban vannak deklarálva, ahol az adott plothoz tartozó lépések vannak rögzítve. Egy ilyen plot például az általáunk leggyakrabban hazsnált "fullinstall" is, ami gyakorlatilag nulláról felhúzza az adott projekthez szükséges sensenet site-ot. Ez például az alábbi lépésekből áll (ez persze projektenként változhat):
+As I mentioned earlier, the solution is made for executing predetermined tasks in a specific order. This order is called a "plot" and a task in it is called a "step".
+
+Mint korábban említettem, a megoldás előre meghatározott feladatok sorrendben történő végrehajtására van kihegyezve. Ezt a forgatókönyvet "plot"-nak nevezzük, egy végrehajtandó feladatot "step"-nek. 
+
+
+Alapvetően - pl fejlesztőkörnyezet létrehozásakor vagy frissítésekor - a "plot" működés kap nagyobb szerepet. Ez az amivel a gyakran ismételt több lépésből álló feladat automatizálásával időt spórolhatunk. Ezek a forgatókönyvek a settings file-ban vannak deklarálva, ahol az adott plothoz tartozó lépések vannak rögzítve. Egy ilyen plot például az általáunk leggyakrabban hazsnált "fullinstall" is, ami gyakorlatilag nulláról felhúzza az adott projekthez szükséges sensenet site-ot. Ez például az alábbi lépésekből áll (ez persze projektenként változhat):
 - leállítja a site-ot (ha már korábban telepítve volt)
 - letölti a projektünkben deklarált nuget package-eket
 - előállítja a szükséges assembly-ket (a.k.a. build-eli a solution-t)
